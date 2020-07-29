@@ -1,0 +1,54 @@
+.backgrounded{
+    background: url("../../images/sky.jpg");
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    z-index: -1;
+}
+main{
+    padding-top: 32px;
+}
+.plans{
+    border: 2px solid #1565c0;
+    width: 60%;
+    border-left: 0;
+    margin: 16px 0;
+    border-radius: 3px;
+    padding: 32px;
+    text-align: right;
+    z-index: 0;
+}
+.plans a {
+    color: #1565c0;
+    text-decoration: none;
+    display: block;
+    padding:32px;
+}
+.plan__description{
+    border: 1px solid #1565c0;
+    padding:16px;
+    border-radius: 3px;
+    background-color: #ffffff;
+    font-size: 15px;
+}
+.clearfix{
+    clear: both;
+}
+#plus{
+    background-color: #bbdefb;
+}
+#free{
+    background-color: #e3f2fd;
+    float: right;
+    border-right: 0;
+    border-left: 2px solid #1565c0;
+}
+#perimum{
+    background-color: #1565c0;
+}
+#perimum .plan__title {
+    color: #ffffff;
+}

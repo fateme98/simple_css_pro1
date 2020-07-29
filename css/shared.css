@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+}
+
+/* font */
+@font-face{
+    font-family: "Vazir-FD";
+    src: url("../fonts/Vazir-FD.woff");
+}
+
+body {
+    margin: 0;
+    font-family: "Vazir-FD";
+}
+.main-header {
+    width: 100%;
+    background-color: #1565c0;
+    padding: 8px 16px;
+    position: fixed;
+}
+.main-header > div{
+    display: inline-block;
+}
+.main-header__logo{
+    text-decoration: none;
+    color:#e3f2fd;
+    font-size: 22px;
+    vertical-align: middle;
+}
+.main-nav{
+    display: inline-block;
+    width: calc(100% - 70px);
+    text-align: right;
+    vertical-align: middle;
+}
+.main-nav__item{
+    display: inline-block;
+    margin: 0 8px;
+}
+.main-nav__item  a {
+    text-decoration: none;
+    color:#bbdefb;
+}
+.main-nav__item  a:hover,
+.main-nav__item  a:active {
+    color:#ffffff;
+}
+.main-nav__item--acounts a{
+    background-color: #e3f2fd;
+    color:#1565c0;
+    padding: 8px 16px;
+    border-radius: 8px;
+}
+.main-nav__item--acounts a:hover,
+.main-nav__item--acounts a:active{
+    color:#1565c0;
+}
+/* footer */
+.main-footer{
+    background-color: #424242;
+    padding: 32px;
+}
+.main-footer__links{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    list-style: none;
+}
+.main-footer__link {
+    display: inline-block; 
+    margin: 0 16px;
+}
+.main-footer__link a{
+    color: #ffffff;
+    text-decoration: none;
+}
+.main-footer__link a:hover,
+.main-footer__link a:active{
+    color:#e0e0e0;
+}

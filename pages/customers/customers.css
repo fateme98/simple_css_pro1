@@ -1,0 +1,57 @@
+main{
+    padding-top: 2rem;
+}
+.testmonial{
+    font-size: 1.2rem;
+    margin: 3rem;
+}
+.testmonial:first-of-type {
+    margin-top: 6rem;
+}
+.testmonials__images--container{
+    width: 100%;
+    min-width: 18.75rem;
+}
+.testmonials__img{
+    width: 100%;
+    vertical-align: top;
+    filter: grayscale(65%);
+}
+.testmonials__info{
+    width:100%;
+    
+    text-align: right;
+    padding: 0.9rem;
+    border-radius: 3px;
+    background-color: #1565c0;
+}
+/* #testmonials-2 .testmonials__info{
+    margin-left: 27%;
+} */
+.testmonials__name{
+    color: #ffffff;
+    font-size: 2rem;
+}
+.testmonials__subtitle{
+    color: #e3f2fd;
+    font-size: 1rem;
+}
+.testmonials__comments{
+    color: #bbdefb;
+    font-size: 1.1rem;
+}
+@media (min-width: 43rem){
+    .testmonials__images--container{
+        display: inline-block;
+        width: 50%;
+        vertical-align: middle;
+    }
+    .testmonials__info{
+        width:20%;
+        display: inline-block;
+        vertical-align: middle;
+    }
+    #testmonials-2 .testmonials__info{
+        margin-left: 27%;
+    }
+}

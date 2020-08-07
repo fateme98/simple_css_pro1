@@ -1,0 +1,63 @@
+main{
+    padding-top: 2rem;
+    direction: rtl;
+}
+.title-form {
+    text-align: center;
+    color: #1565c0;
+    margin-top: 5rem;
+}
+.form-order{
+    padding: 1.8rem;
+}
+.form-order input {
+    display: block;
+    width: 100%;
+    font: inherit;
+    margin-top: 0.5rem;
+    border-radius: 3px
+}
+.form-order input:not([type="checkbox"]) {
+    border: 1px solid #90caf9;
+    outline: none;
+    padding: 0.2rem;
+}
+.form-order input:focus {
+    background-color: #e3f2fd;
+    border: 1px solid #1565c0;
+}
+.form-order input::placeholder {
+    padding: 0.2rem;
+}
+.form-order input[type="checkbox"]{
+    border: 1px solid #90caf9;
+    background-color: #ffffff;
+    width: 1rem!important;
+    height: 1rem;
+    -webkit-appearance: none!important;
+}
+.form-order input[type="checkbox"]:checked{
+    border: 1px solid #1565c0;
+    background-color: #90caf9;
+    outline: none;
+}
+.form-order input[type="checkbox"],
+.form-order input[type="checkbox"] + label {
+    display: inline-block;
+    width: auto;
+}
+.form-order button {
+    color: #ffffff;
+    background-color: #1565c0;
+    display: block;
+    font: inherit;
+    border-radius: 3px;
+    border: none;
+    margin-top: 0.5rem;
+}
+@media (min-width:40rem){
+    .form-order{
+        margin: auto;
+        width: 30rem;
+    }
+}
